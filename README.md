@@ -12,7 +12,7 @@ This is my personal portfolio website showcasing my skills, projects, experience
 - Responsive design with mobile-friendly menu toggle
 - Modal popups for project details
 - Image slider/carousel for portfolio items
-- Sections for About, Skills, Projects, Experience, Extra-Curricular Activities, Hobbies & Interests, Languages, and Contact
+- Sections for About, Skills, Projects, Experience, Extra-Curricular Activities, Hobbies & Interests, Languages, and Contact Details
 
 ---
 
