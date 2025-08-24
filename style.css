@@ -376,54 +376,45 @@ h2::after {
   left: 0;
   color: var(--primary-color);
 }
-/* Hobbies Section - Modern Portfolio Style */
-#hobbies {
-    padding: 2rem;
-    background: #f9f9f9;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+/* Hobbies Section - Styled like Experience (Languages Section) */
+#hobbies > div {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
-#hobbies h2 {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+#hobbies > div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+#hobbies h3 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
 }
 
 #hobbies ul {
-    list-style: none;
-    padding-left: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem 2rem;
+  margin-top: 1rem;
+  list-style: none;
+  padding-left: 1rem;
 }
 
 #hobbies ul li {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    color: #333;
-    transition: transform 0.3s ease, color 0.3s ease;
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
 }
 
-#hobbies ul li i {
-    margin-right: 0.8rem;
-    color: var(--primary-color);
-    font-size: 1.3rem;
-    transition: transform 0.3s ease, color 0.3s ease;
+#hobbies ul li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
 }
 
-#hobbies ul li:hover {
-    transform: translateX(5px);
-    color: var(--primary-color);
-}
-
-#hobbies ul li:hover i {
-    transform: rotate(15deg) scale(1.2);
-    color: var(--secondary-color);
-}
 
 
 /* Languages Section - Styled like Experience */
