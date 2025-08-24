@@ -333,7 +333,7 @@ h2::after {
   left: 0;
   color: var(--primary-color);
 }
-/* Extra-Curricular Activities Section - Styled like Experience */
+/* Extra-Curricular Activities Section */
 #extra-curricular > div {
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
@@ -415,7 +415,7 @@ h2::after {
   color: var(--primary-color);
 }
 
-/* Education Section - Styled like Experience */
+/* Education Section */
 #education > div {
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
@@ -454,7 +454,7 @@ h2::after {
   color: var(--primary-color);
 }
 
-/* Certifications Section - Styled like Experience */
+/* Certifications Section  */
 #certifications > div {
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
@@ -493,7 +493,7 @@ h2::after {
   color: var(--primary-color);
 }
 
-/* Languages Section - Styled like Experience */
+/* Languages Section  */
 #languages > div {
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
@@ -663,4 +663,5 @@ section:nth-child(5) { animation-delay: 0.5s; }
   }
 
 }
+
 
