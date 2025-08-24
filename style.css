@@ -415,7 +415,83 @@ h2::after {
   color: var(--primary-color);
 }
 
+/* Education Section - Styled like Experience */
+#education > div {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+}
 
+#education > div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+#education h3 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+#education ul {
+  margin-top: 1rem;
+  list-style: none;
+  padding-left: 1rem;
+}
+
+#education ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
+}
+
+#education ul li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+}
+
+/* Certifications Section - Styled like Experience */
+#certifications > div {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+#certifications > div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+#certifications h3 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+#certifications ul {
+  margin-top: 1rem;
+  list-style: none;
+  padding-left: 1rem;
+}
+
+#certifications ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
+}
+
+#certifications ul li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+}
 
 /* Languages Section - Styled like Experience */
 #languages > div {
@@ -587,3 +663,4 @@ section:nth-child(5) { animation-delay: 0.5s; }
   }
 
 }
+
